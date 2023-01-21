@@ -1,1 +1,1 @@
-lst_creeper = int(input())
+lst_creeper = int(input().split(" "))
