@@ -1,1 +1,1 @@
-import math
+lst_creeper = int(input())
