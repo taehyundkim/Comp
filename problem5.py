@@ -7,10 +7,11 @@ n = int(input())
 
 count = 1
 for i in range(1, n+1):
-    if i >= wither:
-        count -= i - wither - 1
-    if i >= delay:
-        count += 1
+    if i - delay % delay == 0:
+        count += count
+        
+    if i - wither % delay == 0:
+        count -= 1 * (wither - delay)
     
 
 print(count)
