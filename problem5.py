@@ -5,8 +5,16 @@ n = int(input())
 
 #flower = [3, 4, 5, 6, 6]
 
+count = 1
+for i in range(1, n+1):
+    if i >= wither:
+        count -= i - wither - 1
+    if i >= delay:
+        count += 1
+    
 
-
+print(count)
+'''
 flowers = [1]
 
 
@@ -26,3 +34,5 @@ for i in range(1, n+1):
     #print("count: " + str(count))
     
 print(len(flowers))
+
+'''
