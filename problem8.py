@@ -43,14 +43,14 @@ if speed == sum1 and i > ind1:
     smol2 = smol
     
 if sum1 < sum2:
-    print(sum1, " ", ind1)
+    print(sum1,  ind1)
 else:
     if smol1 < smol2:
-        print(sum1, " ", ind1)
+        print(sum1,  ind1)
     elif smol2 > smol1: 
-        print(sum2, " ", ind2)
+        print(sum2,  ind2)
     else:
         if ind1 < ind2:
-            print(sum1, " ", ind1)
+            print(sum1,  ind1)
         else:
-            print(sum2, " ", ind2)
+            print(sum2, ind2)
